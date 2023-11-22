@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(27, 27, 27);
+}
+p{
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+table{
+    background-color:rgb(255, 255, 255);
+    color:rgb(119, 0, 255);
+    font-size: large;
+    font-style: italic;
+}
+th,td{
+    background-color: rgb(22, 22, 22);
+}
+h2{
+   color: rgb(255, 255, 255);
+}
+ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: yellow !important;
+}
