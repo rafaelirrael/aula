@@ -1,0 +1,49 @@
+body{
+    background: rgb(249, 225, 238);
+    background: linear-gradient(90deg, rgb(236, 0, 126) 10%, rgb(0, 171, 245));
+    border-radius: 15px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+input{
+    border-radius: 15px;
+    padding: 10px;
+}
+.form{
+  position: relative;
+    border-radius: 15px;
+    padding-top: 200px;
+    padding: 100px;
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.checkbox{
+    flex: auto;
+}
+.botao{
+    padding: 10px;
+    color: white;
+    background-color: rgb(236, 0, 126);
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 100%;
+}
+.imgperson{
+    display: flex;
+    flex: content;
+    position: absolute;
+    width: 100%;
+    top: -15px;
+}
+.img1{
+    display: flex;
+    justify-content: space-around;
+}
+.imgperson1{
+    margin:  0 auto;
+}
