@@ -1,0 +1,35 @@
+@media (max-width: 320px){
+    .container{
+        width: 96vw;
+    }
+    header h1 {
+        text-align: center;
+    }
+    header h1 img {
+        max-width: 50%;
+    }
+    .sacola{
+        display: none;
+    }
+    .menu-opcoes {
+        position: static;
+        text-align: center;
+    }
+    .menu-opcoes ul li {
+        display: inline-block;
+        margin: 5px;
+    }
+    .busca, .menu-departamento, .banner-destaques img {
+        margin-right: 0;
+        width: 100%;
+    }
+    .painel {
+        width: auto;
+    }
+    .painel li {
+        width: 30%;
+    }
+    .painel img {
+        width: 100%;
+    }
+}
