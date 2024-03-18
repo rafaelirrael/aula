@@ -1,59 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="celular.css">
-    <link rel="stylesheet" href="produtos.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="celular.css">
+  <link rel="stylesheet" href="produtos.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <header class="container">
-        <!--conteudo do cabeçalho-->
-        <h1><img src="./img/logo.png" alt="mirror fashion"></h1>
-        <p class="sacola">
-          nenhum item na sacola
-        </p>
-        <div class="menu-opcoes">
-          <ul>
-            <li><a href="">sua conta</a></li>
-            <li><a href="">lista de desejos</a></li>
-            <li><a href="">cartão fidelidade</a></li>
-            <li><a href="">sobre</a></li>
-            <li><a href="">ajuda</a></li>
-          </ul>
-        </div>
-      </header>
-    <form>
-        <fieldset>
-            <legend>escolha uma cor</legend>
+  <header class="container">
+    <!--conteudo do cabeçalho-->
+    <h1><img src="./img/logo.png" alt="mirror fashion"></h1>
+    <p class="sacola">
+      nenhum item na sacola
+    </p>
+    <div class="menu-opcoes">
+      <ul>
+        <li><a href="">sua conta</a></li>
+        <li><a href="">lista de desejos</a></li>
+        <li><a href="">cartão fidelidade</a></li>
+        <li><a href="">sobre</a></li>
+        <li><a href="">ajuda</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="container">
 
-            <input type="radio" name="verde" id="verde">
-            <label for="verde"><img src="img/produtos/foto1-verde.png" alt="produto na cor verde"></label>
+    <div class="produto">
+      <h1>fuzz cardigan</h1>
+      <p>por apenas R$129,99</p>
+      <form>
+        <fieldset class="cores">
+          <legend>escolha uma cor:</legend>
 
-            <input type="radio" name="rosa" id="rosa">
-            <label for="rosa"><img src="img/produtos/foto1-rosa.png" alt="produto na cor rosa"></label>
+          <input type="radio" name="cor" value="verde" id="verde" checked>
+          <label for="verde"><img src="img/produtos/foto1-verde.png" alt="produto na cor verde"></label>
 
-            <input type="radio" name="azul" id="azul">
-            <label for="azul"><img src="img/produtos/foto1-azul.png" alt="produto na cor azul"></label>
+          <input type="radio" name="cor" value="rosa" id="rosa">
+          <label for="rosa"><img src="img/produtos/foto1-rosa.png" alt="produto na cor rosa"></label>
+
+          <input type="radio" name="cor" value="azul" id="azul">
+          <label for="azul"><img src="img/produtos/foto1-azul.png" alt="produto na cor azul"></label>
         </fieldset>
 
+        <fieldset class="tamanho">
+          <legend>escolha um tamanho:</legend>
+          <input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanho">
+        </fieldset>
         <button class="comprar">comprar</button>
-    </form>>
-    <footer>
-        <div class="container">
-          <img src="img/logo-rodape.png" alt="logo mirror fashion">
-          
-          <ul class="social">
-            <li><a href="https://facebook.com/mirrorfashion">facebook</a></li>
-            <li><a href="https://twitter.com/mirrorfashion">twitter</a></li>
-            <li><a href="https://plus.google.com/mirrorfashion">google+</a></li>
-          </ul>
-          
+      </form>
+    </div>
+    <div class="container">
+      <div class="produto">
+        <div class="detalhes">
+          <h2>detalhes do produto</h2>
+          <p>esse é o melhor casaco de cardigã que você já viu. excelente material italiano com estampa desenhada pelos artesãos da comunidade de krotor nas linhas gregas. compre ja e receba hoje mesmo pela nossa entrega a jato.</p>
+          <table>
+            <thead>
+              <tr>
+                <th>caracteristicas</th>
+                <th>detalhes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>modelos</td>
+                <td>cardigã 7845</td>
+              </tr>
+              <tr>
+                <td>material</td>
+                <td>algodão e poliester</td>
+              </tr>
+              <tr>
+                <td>cores</td>
+                <td>azul, rosa e verde</td>
+              </tr>
+              <tr>
+                <td>lavagem</td>
+                <td>lavar a mão</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
-      </footer>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <img src="img/logo-rodape.png" alt="logo mirror fashion">
+
+      <ul class="social">
+        <li><a href="https://facebook.com/mirrorfashion">facebook</a></li>
+        <li><a href="https://twitter.com/mirrorfashion">twitter</a></li>
+        <li><a href="https://plus.google.com/mirrorfashion">google+</a></li>
+      </ul>
+
+    </div>
+    </div>
+  </footer>
 </body>
+
 </html>
