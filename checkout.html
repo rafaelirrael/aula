@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-4.6.2/css/bootstrap.css">
+
+    <title>checkout mirror fashion</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <div class="container">
+                <h1>ótima compra</h1>
+                <p>obrigado por comprar na mirror fashion!
+                    preeencha seus dados para efetivar a compra</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h2>sua compra</h2>
+                </div>
+                <div class="card-body">
+                    <img src="img/produtos/foto1-verde.png" alt="camisa verde" class="img-thumbnail mb-3">
+
+                    <dl>
+                        <dt>produto</dt>
+                        <dd>fuzzy cardigan</dd>
+                        
+                        <dt>cor</dt>
+                        <dd>verde</dd>
+                        
+                        <dt>tamanho</dt>
+                        <dd>40</dd>
+                        
+                        <dt>preço</dt>
+                        <dd>R$129,90</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="qtd">quantidade</label>
+                        <input type="number" id="qtd" min="1" max="99" value="1" class="form-control">
+                    </div>
+                    <div class="form-gropu">
+                        <label for="total">total:</label>
+                        <output id="total" class="form-control">R$129,99</output>
+                    </div>
+                    <dd id="preco">R$129,99</dd>
+                    <output for="qtd preco" id="total" class="form-control"></output>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="total.js"></script>
+</body>
+
+</html>

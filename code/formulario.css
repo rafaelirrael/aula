@@ -1,6 +1,6 @@
 body{
     background: rgb(249, 225, 238);
-    background: linear-gradient(90deg, rgb(53, 53, 53) 10%, rgb(158, 158, 158));
+    background: linear-gradient(90deg, rgb(236, 0, 126) 10%, rgb(0, 171, 245));
     border-radius: 15px;
     display: flex;
     height: 100vh;
@@ -27,7 +27,7 @@ input{
 .botao{
     padding: 10px;
     color: white;
-    background-color: rgb(202, 13, 13);
+    background-color: rgb(236, 0, 126);
     border-radius: 15px;
     margin-top: 10px;
     width: 100%;
@@ -47,7 +47,4 @@ input{
 }
 .imgperson1{
     position: absolute;
-}
-.imgperson{
-    height: 30px;
 }

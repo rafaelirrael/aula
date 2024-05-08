@@ -162,3 +162,13 @@ td{
 tr:nth-child(2n){
   font-style: italic;
 }
+.tamanho output{
+  display:inline-block;
+  height: 44px;
+  width: 44px;
+  line-height: 44px;
+  text-align: center;
+  border: 3px solid #666;
+  border-radius: 50%;
+  color: #555;
+}

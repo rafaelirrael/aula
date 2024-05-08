@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+body{
+    background: linear-gradient(90deg, rgb(184, 184, 184) 10%, rgb(63, 63, 63));
+    margin-top: 25%;
+    background-color: #ffffff;
+    display: flex;
+    flex: content;
+    justify-content: center;
+}
+.clima{
+    padding: 0 20px 0 20px;
+    background-color: #444444;
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 20px;
+}
+.vento{
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+.vento img{
+    height: 20px;
+    filter: invert(100%);
+    bottom: 30px;
+}
+strong{
+    font-size: 30px;
+}
+
